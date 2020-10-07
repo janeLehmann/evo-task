@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render list of 2 items 1`] = `
+<div>
+  <div
+    class="chooseLevel"
+  >
+    <h1
+      class="chooseLevelTitle"
+    >
+      Choose the level
+    </h1>
+    <div
+      class="chooseLevelDesc"
+    >
+      After choosing the level the game will start automatically
+    </div>
+    <div
+      class="chooseLevelList"
+    >
+      <div
+        class="chooseLevelItem"
+        data-testid="choose-level-item"
+      >
+        <button
+          class="chooseLevelItemButton"
+          type="button"
+        >
+          Level 
+          1
+        </button>
+        <div
+          class="chooseLevelItemText"
+        >
+          10x10 cells
+        </div>
+      </div>
+      <div
+        class="chooseLevelItem"
+        data-testid="choose-level-item"
+      >
+        <button
+          class="chooseLevelItemButton"
+          type="button"
+        >
+          Level 
+          2
+        </button>
+        <div
+          class="chooseLevelItemText"
+        >
+          20x40 cells
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

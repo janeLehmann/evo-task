@@ -1,0 +1,22 @@
+// Fonts
+@mixin regular() {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+}
+
+@mixin medium() {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+}
+
+@mixin reset-button-styles() {
+  border: none;
+  border-radius: 0;
+  background: none;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
