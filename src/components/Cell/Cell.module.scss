@@ -1,0 +1,55 @@
+@import 'src/static/styles/_mixins.scss';
+
+.cell {
+  @include reset-button-styles();
+  background: transparent;
+  width: 30px;
+  min-width: 30px;
+  height: 30px;
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+}
+
+.cellBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+
+.cellTitle {
+  position: relative;
+  z-index: 10;
+  color: black;
+
+  .cellBlue & {
+    color: #0000ff;
+  }
+
+  .cellGreen & {
+    color: #008000;
+  }
+
+  .cellRed & {
+    color: #ff1821;
+  }
+
+  .cellDarkRed {
+    color: #a6151c;
+  }
+
+  .cellBurgundy & {
+    color: #701708;
+  }
+}

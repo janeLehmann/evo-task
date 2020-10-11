@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import ChooseLevel from 'components/ChooseLevel/ChooseLevel';
+import Field from 'components/Field/Field';
 
 import styles from './Main.module.scss';
 
@@ -31,7 +32,13 @@ export const Main: React.FC = () => {
   ];
 
   return (
-    <div className={styles.main}>{currentLevel ? <></> : <ChooseLevel levels={levels} />}</div>
+    <div className={styles.main}>
+      {currentLevel ? (
+        <Field currentLevel={currentLevel} goBack={() => setCurrentLevel(0)} />
+      ) : (
+        <ChooseLevel levels={levels} />
+      )}
+    </div>
   );
 };
 

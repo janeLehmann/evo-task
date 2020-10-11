@@ -1,0 +1,55 @@
+@import 'src/static/styles/_mixins.scss';
+
+.field {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.fieldGoBackButton {
+  @include reset-button-styles();
+  height: 50px;
+  background: #205180;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  @include regular();
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.fieldStartWrap {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid #808080;
+  border-bottom: none;
+}
+
+.fieldStart {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.fieldInner {
+  padding: 20px 10px;
+  background: #808080;
+}
+
+.fieldLine {
+  display: flex;
+}
