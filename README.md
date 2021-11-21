@@ -1,3 +1,10 @@
+Results of the game:
+
+1 level: open: You win. The password for this level is: ThisWasEasy
+2 level: open: You win. The password for this level is: NotSoMuch
+4 level: open: You win. The password for this level is: PleaseNoMore
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
